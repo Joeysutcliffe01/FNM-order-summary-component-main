@@ -1,0 +1,57 @@
+// ## Colors
+
+// ### Primary
+
+$color-primary-1: hsl(225, 100%, 94%);
+$color-primary-2: hsl(245, 75%, 52%);
+$color-black: hsl(0, 0%, 0%);
+$color-white: hsl(0, 0%, 100%);
+
+// ### Neutral
+
+$color-Very-pale-blue: hsl(225, 100%, 98%);
+$color-Desaturated-blue: hsl(224, 23%, 55%);
+$color-Dark-blue: hsl(223, 47%, 23%);
+
+// BP's
+$desktop: 90em; // 1440px / 16 = 90em
+
+*,
+* ::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62%; //1rem = 10px
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+.attribution {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+  background-color: $color-primary-1;
+  padding: 1rem 0;
+}
+.attribution a {
+  color: $color-Dark-blue;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

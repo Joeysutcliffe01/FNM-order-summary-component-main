@@ -1,0 +1,199 @@
+*,
+* ::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62%;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1.6rem;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.attribution {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+  background-color: #e0e8ff;
+  padding: 1rem 0;
+}
+
+.attribution a {
+  color: #1f2f56;
+}
+
+.attribution a:hover {
+  opacity: 0.8;
+}
+
+.main__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 5rem 0;
+  background-color: #e0e8ff;
+}
+
+.main__section::after {
+  content: "";
+  background-image: url(../../images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 80%;
+  z-index: 0;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: papayawhip;
+  border-radius: 1rem;
+  max-width: 30rem;
+  background-color: white;
+  z-index: 1;
+}
+
+.card__hero {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  color: #7280a7;
+  width: 90%;
+}
+
+.card__main-h1 {
+  color: black;
+  padding: 0.8rem 0;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.card__main-p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.card__sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(243, 243, 243, 0.685);
+  padding: 0.5rem;
+  margin: 2rem 0;
+  font-size: 1.4rem;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.card__sub-container {
+  margin-right: auto;
+  padding: 0 1.4rem;
+  color: black;
+}
+
+.card__sub-img {
+  width: 4.5rem;
+}
+
+.card__sub-p {
+  color: rgba(0, 0, 0, 0.39);
+}
+
+.card__sub-link {
+  color: #3829e0;
+  font-weight: 700;
+}
+
+.card__sub-link:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
+
+.card__btn {
+  background-color: #3829e0;
+  color: white;
+  border-radius: 1rem;
+  letter-spacing: 0.3rem;
+  padding: 1.3rem;
+  width: 100%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.411) 0px 4px 6px -1px, rgba(0, 0, 0, 0.37) 0px 2px 4px -1px;
+          box-shadow: rgba(0, 0, 0, 0.411) 0px 4px 6px -1px, rgba(0, 0, 0, 0.37) 0px 2px 4px -1px;
+}
+
+.card__btn:hover {
+  opacity: 0.7;
+}
+
+.card__cancel {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.562);
+  padding: 2rem;
+}
+
+.card__cancel:hover {
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */
